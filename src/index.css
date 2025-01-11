@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flex-center {
+    @apply flex flex-col items-center justify-center;
+  }
+  .inputWrapperStyle {
+    @apply lg:w-[30rem] lg:p-2 rounded-md shadow-lg sm:w-[70vw] sm:p-2;
+  }
+  .inputStyle {
+    @apply w-full lg:p-4 rounded-lg border outline-none focus:border-gray-900 sm:p-2 sm:placeholder:text-xs lg:placeholder:text-base;
+  }
+  .text-error {
+    @apply text-red-500 text-end lg:text-xs sm:text-[0.7rem];
+  }
+}
+
+input:focus::placeholder {
+  color: red;
+}
