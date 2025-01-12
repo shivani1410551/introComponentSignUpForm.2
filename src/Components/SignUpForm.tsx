@@ -28,7 +28,7 @@ export const SignUpForm: React.FC = () => {
 
   return (
     <div className="h-full flex-center">
-      <div className="inputWrapperStyle bg-Blue lg:mb-4 text-center lg:py-4">
+      <div className="inputWrapperStyle bg-Blue lg:mb-4 text-center lg:py-4 sm:mb-4">
         <p className="font-normal text-gray-300 sm:text-xs">
           <span className="font-extrabold text-white">
             Try it free for 7 days
@@ -156,7 +156,7 @@ export const SignUpForm: React.FC = () => {
             Claim your free trial
           </button>
         </form>
-        <p className="lg:text-xs text-gray-500 lg:m-2 text-center sm:m-1 sm:text-[0.45rem]">
+        <p className="lg:text-xs text-gray-500 lg:m-2 text-center sm:m-1 sm:text-xs leading-8">
           By clicking the button, you are agreeing to our{" "}
           <a href="#" className="text-red-500 font-bold">
             Terms and Services
